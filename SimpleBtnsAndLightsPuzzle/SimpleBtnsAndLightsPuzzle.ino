@@ -1,5 +1,5 @@
 /*
-  The note so simple code for a very simple lights-and-buttons puzzle, as a demonstration, for some young teenagers, of what we might make on my current education.
+  The not so simple code for a very simple lights-and-buttons puzzle, as a demonstration, for some young teenagers, of what we might make on my current education.
   All lights are turned off to begin with. The goal is to turn them all on. As it is a Very simple puzzle of this sort, it can be solved with just 2 button presses.
 
   Every button affects the lights in pre-determined way (programs).
