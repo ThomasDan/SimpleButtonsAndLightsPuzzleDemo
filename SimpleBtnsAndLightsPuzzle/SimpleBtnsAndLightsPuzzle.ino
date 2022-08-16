@@ -63,7 +63,8 @@ class Program{
 class Button{
   public: 
     int pinNumber;
-    Program programs[numberOfPrograms] = { Program(), Program() }; // I wanted to make this array of dynamic sizing, but alas, such is bad practice with arduino.
+    Program programs[numberOfPrograms] = { Program(), Program() };
+    // I wanted to make this array of dynamic sizing, but alas, such is bad practice with arduino.
     
     Button(){
       // This empty constructor is necessary, as the array of buttons requires that it is initialized with empty buttons.
@@ -74,7 +75,6 @@ class Button{
       programs[0] = prog1;
       programs[1] = prog2;
     }
-    
 };
 
 const Light lights[numberOfLights] = {
