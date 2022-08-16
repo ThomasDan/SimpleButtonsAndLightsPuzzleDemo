@@ -7,6 +7,7 @@
   Coded for 3 LED lights and 3 buttons. Each button having 2 'programs'.
 
   It wouldn't be too much work to add more lights and buttons, so long as all buttons have an equal number of programs.
+  All adjustments required are inside of and above the void Setup()
 
 */
 
